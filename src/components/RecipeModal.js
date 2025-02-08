@@ -1,23 +1,15 @@
 import React from 'react';
 import {
   Dialog,
-  DialogTitle,
-  DialogContent,
   IconButton,
   Typography,
   Box,
   Chip,
   Grid,
   Link,
-  Divider,
-  Button,
-} from '@mui/material';
-import { motion } from 'framer-motion';
+} from '@mui/material';  // Removed Button import
+import { Close as CloseIcon } from '@mui/icons-material';
 import {
-  Close as CloseIcon,
-  Timer as TimerIcon,
-  Restaurant as ServingsIcon,
-  LocalDining as DiningIcon,
   Favorite,
   FavoriteBorder,
   Share as ShareIcon,
