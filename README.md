@@ -85,12 +85,6 @@ This README follows best practices and makes your repository look professional! 
 
 ---
 
-### **Next Steps**  
-1. Save this file as `README.md` in your project folder.  
-2. Push it to GitHub using the given Git commands.  
-
-Your repository will now have a well-structured and informative **README.md**! 🚀
-
 
 
 
