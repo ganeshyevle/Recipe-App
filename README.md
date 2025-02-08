@@ -5,6 +5,8 @@ The **Recipe App** is a web application built using **ReactJS** and **Redux** th
 
 ---
 
+🔗 **Live Demo:** [Recipe Explorer App](https://recipe-explorer-app.netlify.app/)
+
 ## 🚀 Features
 
 ✅ Display a collection of recipes with titles, images, and descriptions  
