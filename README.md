@@ -1,46 +1,96 @@
-# Getting Started with Create React App and Redux
+# 🍕 Recipe App with Favorites and Filters
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app), using the [Redux](https://redux.js.org/) and [Redux Toolkit](https://redux-toolkit.js.org/) template.
+## 📌 Overview
+The **Recipe App** is a web application built using **ReactJS** and **Redux** that allows users to browse, search, and save their favorite recipes. The app fetches recipes from an external API and provides filters for dietary preferences and meal categories.
 
-## Available Scripts
+---
 
-In the project directory, you can run:
+## 🚀 Features
 
-### `npm start`
+✅ Display a collection of recipes with titles, images, and descriptions  
+✅ Fetch recipes from an API dynamically  
+✅ Search recipes by keywords, ingredients, or dietary criteria  
+✅ View recipe details, including ingredients, instructions, and preparation time  
+✅ Mark and save favorite recipes for later  
+✅ Filter recipes by categories (Breakfast, Lunch, Dinner) and dietary restrictions  
+✅ State management using Redux for better scalability  
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+---
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## 🛠️ Tech Stack
 
-### `npm test`
+- **Frontend:** ReactJS, Redux, JavaScript, CSS  
+- **State Management:** Redux (Actions, Reducers, Store)  
+- **API Integration:** Edamam API  
+- **Styling:** CSS/SCSS  
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+---
 
-### `npm run build`
+## 📦 Installation & Setup
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+1️⃣ **Clone the repository:**  
+bash
+git clone https://github.com/ganeshyevle/Recipe-App.git
+cd Recipe-App
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+2️⃣ **Install dependencies:**
+- npm install
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+3️⃣ **Start the development server:**
+- npm start
+- ➡️ The app will be available at http://localhost:3000/
 
-### `npm run eject`
+🔗 **API Used**
+The app fetches recipes from the Edamam API. Example API endpoint:
+[bash
+Copy
+Edit](https://api.edamam.com/search?q=pizza&app_id=YOUR_APP_ID&app_key=YOUR_APP_KEY&from=0&to=50
+)
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Replace YOUR_APP_ID and YOUR_APP_KEY with actual credentials from Edamam API.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+📂 **Project Structure**
+Recipe-App/
+│── src/
+│   ├── components/    # Reusable UI components
+│   ├── pages/         # Pages (Home, Favorites, Recipe Details)
+│   ├── redux/         # Redux store, actions, reducers
+│   ├── assets/        # Images, icons
+│   ├── App.js         # Main app component
+│   ├── index.js       # Entry point
+│   ├── styles/        # Global styles
+│── public/
+│── package.json
+│── README.md
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+📸 **Screenshots**
+📌 ![Homepage Screenshot](https://drive.google.com/uc?export=view&id=1GluUPjsPYp7lYWqkuCNUhTd7hB_9MOQX)
 
-## Learn More
+🤝 **Contributing**
+Contributions are welcome! Feel free to fork the repository and submit a pull request.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+📜 **License**
+This project is licensed under the MIT License.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+How to Add & Push README to GitHub
+Save this file as README.md in your project folder.
+Open a terminal in your project directory and run:
+
+git add README.md
+git commit -m "Added README file"
+git push origin main
+Check your GitHub repository to see the README file displayed.
+This README follows best practices and makes your repository look professional! 🚀
+
+---
+
+### **Next Steps**  
+1. Save this file as `README.md` in your project folder.  
+2. Push it to GitHub using the given Git commands.  
+
+Your repository will now have a well-structured and informative **README.md**! 🚀
+
+
+
+
